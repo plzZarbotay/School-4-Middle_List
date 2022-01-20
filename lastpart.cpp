@@ -10,7 +10,7 @@ long itc_sumlst(const vector<int> &lst){
 long itc_sum_even_lst(const vector<int> &lst){
     long veclen = lst.size();
     long sum_even_lst = 0;
-    for( int i = 1; i < veclen; i+=2 ){
+    for( int i = 0; i < veclen; i+=2 ){
         sum_even_lst += lst[i];
     }
     return sum_even_lst;
